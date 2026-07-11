@@ -1,9 +1,6 @@
-x <- c(10, 20, 30, 40, 50)
-min_value <- min(x)
-max_value <- max(x)
-mean_value <- mean(x)
-minmax_norm <- (x - min_value) / (max_value - min_value)
-min_value
-max_value
-mean_value
-minmax_norm
+
+a<-c(55,67,89,80,90)
+barplot(a)
+a<-c(55,67,89,80,90)
+barplot(a)
+barplot(a,horiz=TRUE)
